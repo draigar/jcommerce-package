@@ -1,0 +1,19 @@
+{
+    "name": "jstore/jcommerce",
+    "description": "This is a store package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "japps-inc",
+            "email": "jappssystem@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Jstore\\Jcommerce\\": "src/"
+        }
+    }
+}
