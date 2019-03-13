@@ -13,7 +13,9 @@ class testController extends Controller
      */
     public function index()
     {
-        return view('jcommerce::test');
+        return view('jcommerce::test')->with([
+            'config' => config('jcommerce.email_to_send')
+        ]);
     }
 
     /**

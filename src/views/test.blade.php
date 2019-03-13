@@ -7,6 +7,6 @@
     <title>Test Page</title>
 </head>
 <body>
-    <h1>This is a test page for the laravel package</h1>
+    <h1>This is a test page for the laravel package {{$config}}</h1>
 </body>
 </html>

@@ -7,5 +7,5 @@
  */
 
 return [
-    'email_to_send' => ''
+    'email_to_send' => 'test@gmail.com'
 ];
